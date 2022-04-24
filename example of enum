@@ -1,0 +1,12 @@
+#include<stdio.h>
+/*#include<iostream>*/
+typedef enum  {summer,winter,rainy} seasons;
+int main()
+{
+seasons s;
+s=winter;
+printf("winter comes %d nd",s);
+s=summer;
+printf("summer comes %d st",s);
+return 0;
+}
